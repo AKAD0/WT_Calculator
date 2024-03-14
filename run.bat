@@ -1,3 +1,3 @@
 @echo off
-"python.exe" "..\overlay.py"
+"python.exe" "..\WT_Calculator\overlay.py"
 pause
