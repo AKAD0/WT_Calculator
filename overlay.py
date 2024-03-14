@@ -9,7 +9,7 @@
 #       Options -> Main -> Battle Interface -> Safe area in HUD = '100%'
 #       Options -> Main -> Battle Interface -> HUD = 'Default'
 #---Script settings:
-map_scale = 275
+map_scale = 200
 
 #DO NOT TOUCH ANYTHING BELOW
 import cv2
@@ -47,7 +47,7 @@ def make_transparent(hwnd):
     # Set the window style with WS_EX_LAYERED flag to make it transparent
     win32gui.SetWindowLong(hwnd, win32con.GWL_EXSTYLE, style | win32con.WS_EX_LAYERED)
     # Set the transparency level (0-255, 0 being fully transparent and 255 being opaque)
-    win32gui.SetLayeredWindowAttributes(hwnd, 0, 200, win32con.LWA_ALPHA)
+    win32gui.SetLayeredWindowAttributes(hwnd, 0, 100, win32con.LWA_ALPHA)
 
 # Find the handle of the window you want to make transparent
 # Spy++ to find the window class and title: https://github.com/strobejb/winspy/releases/tag/v1.8.4
