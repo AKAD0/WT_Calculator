@@ -9,7 +9,7 @@
 #       Options -> Main -> Battle Interface -> Safe area in HUD = '100%'
 #       Options -> Main -> Battle Interface -> HUD = 'Default'
 #---Script settings:
-map_scale = 250
+map_scale = 225
 
 #DO NOT TOUCH ANYTHING BELOW
 import cv2
