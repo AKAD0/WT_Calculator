@@ -1,3 +1,5 @@
+#To keep the windows on top of every other you can use 'Always on Top' function within 'Microsoft PowerToys' available in microsoft store for free.
+
 #---In-game settings:
 #   The script is made with respect to the following game settings. It won't work correctly if anything has been setted different.
 #       Options -> Main -> Main Parameters -> UI scale = 'Large(100%)'
@@ -7,7 +9,7 @@
 #       Options -> Main -> Battle Interface -> Safe area in HUD = '100%'
 #       Options -> Main -> Battle Interface -> HUD = 'Default'
 #---Script settings:
-map_scale = 325
+map_scale = 250
 
 #DO NOT TOUCH ANYTHING BELOW
 import cv2
