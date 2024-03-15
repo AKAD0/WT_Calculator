@@ -9,7 +9,7 @@
 #       Options -> Main -> Battle Interface -> Safe area in HUD = '100%'
 #       Options -> Main -> Battle Interface -> HUD = 'Default'
 #---Script settings:
-scale_map = 200
+scale_map = 250
 
 #DO NOT TOUCH ANYTHING BELOW
 import cv2
@@ -73,7 +73,7 @@ while True:
     cv2.putText(image, f"Distance (m):", (20, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255),1)
     cv2.putText(image, f"Hold Tab to Reset", (20, 480), cv2.FONT_HERSHEY_SIMPLEX, 0.25, (255, 255, 255),1)
     cv2.putText(image, f"Hold ESC to Exit", (20, 490), cv2.FONT_HERSHEY_SIMPLEX, 0.25, (255, 255, 255),1)
-    cv2.putText(image, f"Hold Tilda (~) to Calibrate", (20, 500), cv2.FONT_HERSHEY_SIMPLEX, 0.25, (255, 255, 255),1)
+    cv2.putText(image, f"Hold Tilde (~) to Calibrate", (20, 500), cv2.FONT_HERSHEY_SIMPLEX, 0.25, (255, 255, 255),1)
     cv2.putText(image, f"Calibration: set 'scale_map'; measure 5 map squares with 2 dots; depress Tilda; depress Tab.", (20, 510), cv2.FONT_HERSHEY_SIMPLEX, 0.25, (255, 255, 255),1)
 
     # Draw
